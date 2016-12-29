@@ -1,0 +1,4 @@
+MainPackage=C:\projects\shipwreck\proj.win8.1-universal\ARM\Release\Shipwreck.WindowsPhone\Shipwreck.WindowsPhone_1.1.0.6_Bundle\Shipwreck.WindowsPhone_1.1.0.6_ARM.appx
+SymbolPackage=C:\projects\shipwreck\proj.win8.1-universal\AppPackages\Shipwreck.WindowsPhone\Shipwreck.WindowsPhone_1.1.0.6_Test\Shipwreck.WindowsPhone_1.1.0.6_ARM.appxsym
+ResourcePack=C:\projects\shipwreck\proj.win8.1-universal\ARM\Release\Shipwreck.WindowsPhone\Shipwreck.WindowsPhone_1.1.0.6_Bundle\Shipwreck.WindowsPhone_1.1.0.6_scale-100.appx
+ResourcePack=C:\projects\shipwreck\proj.win8.1-universal\ARM\Release\Shipwreck.WindowsPhone\Shipwreck.WindowsPhone_1.1.0.6_Bundle\Shipwreck.WindowsPhone_1.1.0.6_scale-140.appx

@@ -1,0 +1,2 @@
+MainPackage=C:\projects\shipwreck\proj.win8.1-universal\Release\Shipwreck.Windows\Shipwreck.Windows_1.1.0.6_Bundle\Shipwreck.Windows_1.1.0.6_Win32.appx
+SymbolPackage=C:\projects\shipwreck\proj.win8.1-universal\AppPackages\Shipwreck.Windows\Shipwreck.Windows_1.1.0.6_Test\Shipwreck.Windows_1.1.0.6_Win32.appxsym

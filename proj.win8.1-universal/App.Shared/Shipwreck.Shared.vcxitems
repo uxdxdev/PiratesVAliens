@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>e956c24b-f04e-47bf-bf00-746681ae1301</SharedGUID>
+    <ItemsProjectGuid>{a3ad93e4-0b2f-4c58-9181-69bed2e42e3e}</ItemsProjectGuid>
+    <ItemsRootNamespace>Shipwreck</ItemsRootNamespace>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\ai\pathfinding_astar.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\base\game_event.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\base\game_model.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\base\game_world.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\base\vector3.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\dao\data_access_object.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\entities\cannon.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\entities\enemy.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\entities\land.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\entities\tower.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\entities\tower_platform.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\layer\board_layer.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\layer\build_menu.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\layer\hud_layer.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\layer\upgrade_menu.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\manager\spawn_manager.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\manager\world_manager.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\scene\game_over_scene.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\scene\game_scene.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\Classes\scene\menu_scene.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)App.xaml.cpp">
+      <DependentUpon>$(MSBuildThisFileDirectory)App.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Cocos2dRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenGLES.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OpenGLESPage.xaml.cpp">
+      <DependentUpon>$(MSBuildThisFileDirectory)OpenGLESPage.xaml</DependentUpon>
+    </ClCompile>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\ai\pathfinding_astar.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\AppDelegate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\base\game_defines.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\base\game_event.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\base\game_model.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\base\game_world.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\base\observer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\base\search_cell.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\base\subject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\base\vector3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\dao\data_access_object.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\entities\bullet.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\entities\cannon.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\entities\enemy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\entities\game_object.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\entities\land.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\entities\tower.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\entities\tower_platform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\layer\board_layer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\layer\build_menu.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\layer\hud_layer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\layer\upgrade_menu.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\manager\spawn_manager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\manager\world_manager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\scene\game_over_scene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\scene\game_scene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Classes\scene\menu_scene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)App.xaml.h">
+      <DependentUpon>$(MSBuildThisFileDirectory)App.xaml</DependentUpon>
+    </ClInclude>
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Cocos2dRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)OpenGLES.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)OpenGLESPage.xaml.h">
+      <DependentUpon>$(MSBuildThisFileDirectory)OpenGLESPage.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <_CustomResource Include="$(MSBuildThisFileDirectory)..\..\Resources\**\*">
+      <Link>Assets\Resources\%(RecursiveDir)%(FileName)%(Extension)</Link>
+      <DeploymentContent>true</DeploymentContent>
+    </_CustomResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)OpenGLESPage.xaml" />
+  </ItemGroup>
+  <Target Name="_CollectCustomResources" BeforeTargets="AssignTargetPaths">
+    <Message Text="Adding resource: %(_CustomResource.Identity) -&gt; %(_CustomResource.Link)" />
+    <ItemGroup>
+      <None Include="@(_CustomResource)" />
+    </ItemGroup>
+  </Target>
+</Project>

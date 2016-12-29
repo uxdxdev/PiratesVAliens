@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="9" tilewidth="64" tileheight="64" nextobjectid="7">
+ <tileset firstgid="1" name="tileset" tilewidth="64" tileheight="64" tilecount="32" columns="8">
+  <image source="tileset.png" width="512" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="Blocked" value="False"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Blocked" value="False"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="Blocked" value="True"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Blocked" value="True"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Blocked" value="True"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="Blocked" value="True"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="Blocked" value="True"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="Blocked" value="True"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="Blocked" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="16" height="9">
+  <data encoding="base64">
+   EQAAABEAAAARAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAABEAAAARAAAAEQAAAAEAAAARAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAABEAAAARAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAARAAAAEQAAAAEAAAABAAAAAQAAAAEAAAABAAAAEQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAABEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAEQAAABEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAABEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAABEAAAARAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAABEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAEQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAABEAAAARAAAAEQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAABEAAAABAAAAAQAAAAEAAAABAAAAAQAAABEAAAARAAAA
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object id="1" name="SpawnPoint" x="4.7083" y="262" width="51" height="53"/>
+  <object id="3" name="EnemyTarget" x="967.66" y="262.833" width="53" height="52"/>
+ </objectgroup>
+</map>
