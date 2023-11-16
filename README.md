@@ -1,7 +1,6 @@
 # Pirates V Aliens
 
 Cocos2dx game written in C++ for iOS and Android  
-Develoment: David Morton @MrDavidMorton  
 
 ## Build instructions
 
